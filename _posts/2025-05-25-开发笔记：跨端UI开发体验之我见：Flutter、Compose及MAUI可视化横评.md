@@ -61,8 +61,9 @@ Jetpack Compose 代表了 Android UI 开发的未来方向，它同样采纳了�
 * **Flutter的生态：**
     虽然Flutter有pub.dev收集了大量的第三方库和组件，但在一些特定领域（如图形处理、机器学习等）仍然显得有些薄弱，而且第三方库的质量参差不齐也容易因为Flutter版本更新而导致不兼容的问题，没有及时更新插件。
     从Dart3.5以下版本(Flutter 3.22.3 及以下)升级到3.5以上版本时，很多插件都需要更新才能兼容新的Dart版本。比如
-    1. image_gallery_saver 这个插件已经 23 个月没有更新了，在其 [issue](https://github.com/hui-z/image_gallery_saver/issues/37)中，发现了新插件 flutter_image_gallery_saver 可替代，函数名称不变。
-    2. 谷歌官方负责维护的tflite_flutter插件也有较长时间没有适配。
+    1. image_gallery_saver 这个插件已经 23 个月没有更新了，在其 [issue](https://github.com/hui-z/image_gallery_saver/issues/37)中，发现了新插件 flutter_image_gallery_saver 可替代或者使用在pub.dev查找到的image_gallery_saver_plus。（本插件实际函数使用方式不变，函数名变化）
+ 
+    2. 谷歌官方负责维护的tflite_flutter插件也有较长时间没有适配，且当时暂时无法找到优秀替代。
 以上种种导致了Flutter变成了安卓开发的“二等公民”，除了安卓接下来可能是对iOS的支持排名第二，再者都是聊胜于无的支持，甚至于Dart的口号：[“目标在于成为下一代结构化Web开发语言”](https://zh.wikipedia.org/zh-cn/Dart)也是空谈。
 
 ## 结语：
